@@ -2,8 +2,9 @@ image: ubuntu:16.04
 
 gcf-build:
   script:
-  - apt-get install wamerican wdutch wfrench wngerman witalian wspanish
-  - bash generate-wordlist.sh
+  - apt-get update
+  - apt-get install -y wamerican wdutch wfrench wngerman witalian wspanish
+  - bash generate-wordlist.sh > wordlist.json
   artifacts:
     paths:
     - index.js
