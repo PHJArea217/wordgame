@@ -20,8 +20,9 @@ exports.callback = function (req, res) {
 	triesCount++;
 	var wordGuess = String(wordlist[middleWordIndex - 1]);
 	var htmlOutput = '<!DOCTYPE html><html><head><title>Guess the Word</title>\
-	</head><body bgcolor="#a0dfff"><h1>Guess the Word Game</h1><p>Does your \
-	word come before or after <span style="font-weight:bold;font-size:24px">';
+	</head><body bgcolor="#a0dfff" style="text-align:center;"> \
+	<h1>Guess the Word Game</h1><p>Does your \
+	word come before or after <span style="font-weight:bold;font-size:28px">';
 	htmlOutput += wordGuess + "</span> (#" + middleWordIndex + ") in the ";
 	htmlOutput += 'dictionary?</p><p><a href="?tries=' + triesCount +
 	"&leftIndex=" + wordLeft + "&rightIndex=" + middleWordIndex + '">Before</a>';
