@@ -1,0 +1,11 @@
+image: ubuntu:16.04
+
+gcf-build:
+  script:
+  - apt-get install wamerican wdutch wfrench wngerman witalian wspanish
+  - bash generate-wordlist.sh
+  artifacts:
+    paths:
+    - index.js
+    - package.json
+    - wordlist.json
