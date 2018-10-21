@@ -3,8 +3,8 @@ image: ubuntu:rolling
 gcf-build:
   script:
   - apt-get update
-  - apt-get install -y wamerican wdutch wfrench wngerman witalian wspanish
-  - bash generate-wordlist.sh > wordlist.json
+  - apt-get install -y language-pack-en wamerican wdutch wfrench wngerman witalian wspanish
+  - env LANG=en_US.UTF-8 bash generate-wordlist.sh > wordlist.json
   artifacts:
     paths:
     - index.js
