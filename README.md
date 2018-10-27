@@ -17,6 +17,14 @@ A direct link to the non-Javascript version of the game is located at
 https://us-central1-webclockbackend.cloudfunctions.net/gtw \(please note that
 this link is subject to change.)
 
+# Todo list
+
+- [ ] Use a CDN for the non-Javascript version
+- [ ] Javascript version
+- [ ] English-only version
+- [ ] Huffman encoding to compress wordlist
+- [ ] Randomization \(without breaking existing flow)
+
 # Deployment
 
 Go to the "Pipelines/Jobs" section of GitLab CI, then download the ZIP artifacts
