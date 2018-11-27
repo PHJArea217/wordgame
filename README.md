@@ -9,17 +9,23 @@ in addition to a Javascript version. The non-Javascript version is based off of
 an old CGI script I wrote for my own server. The Javascript version has yet to
 be written.
 
+**Edit 2018-11-27**: I have moved my personal deployment of this game off from
+Cloud Functions to a DigitalOcean droplet running Node.JS as part of my
+"swingset" virtual machine to take advantage of the Cloudflare CDN.
+Nevertheless, feel free to download the artifacts.zip \(as described below) if
+you'd like to deploy your own version.
+
 # Online Version
 
 To play the online version, visit https://www.peterjin.org/gtw.html
 
 A direct link to the non-Javascript version of the game is located at
-https://us-central1-webclockbackend.cloudfunctions.net/gtw \(please note that
+https://apps-vm2-cdn.peterjin.org/apps/gtw \(please note that
 this link is subject to change.)
 
 # Todo list
 
-- [ ] Use a CDN for the non-Javascript version
+- [x] Use a CDN for the non-Javascript version
 - [ ] Javascript version
 - [ ] English-only version
 - [ ] Huffman encoding to compress wordlist

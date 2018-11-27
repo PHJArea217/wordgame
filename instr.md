@@ -46,7 +46,7 @@ in the dictionary, so you would click "After."
 
 ---
 
-[Start - no JS](https://us-central1-webclockbackend.cloudfunctions.net/gtw)
+[Start - no JS](https://apps-vm2-cdn.peterjin.org/apps/gtw)
 
 Please do not link directly to the above links as they are subject to change
 at any time. If you want to share this on Facebook, Twitter, etc., use this
